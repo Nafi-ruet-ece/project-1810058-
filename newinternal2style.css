@@ -1,0 +1,274 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+
+
+
+
+}
+.header{
+  min-height: 100vh;
+  width:100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/courseback.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+
+}
+nav{
+  display:flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  border-style: inset;
+  border-color: blue;
+
+
+}
+nav img{
+  width: 50px;
+  margin-left:400px;
+}
+nav h1{
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: oblique;
+}
+.nav-links{
+  flex:1;
+  text-align:right;
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
+.nav-links ul li {
+  list-style:none;
+  display:inline-block;
+  padding:8px 12px;
+  position: relative;
+  font-color:white;
+    
+  
+}
+.nav-links ul li a{
+  color:#fff;
+  text-decoration:none;
+  font-size:13px;}
+
+
+
+  
+.nav-links ul li::after{
+  content:'';
+  width:0%;
+  height:2px;
+  background:#f44336;
+  display:block;
+  margin:auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width:100%;
+}
+
+    
+
+
+
+.belowhead{
+
+  background-color:gray; 
+  background-position: center;
+  background-size: cover;
+  position: relative;
+    border-style: inset;
+  border-color: blue;
+}
+belowhead h1{
+  font-size: 150px;
+}
+belowhead h3{
+   font-size: 20px;
+} 
+
+.aside{
+
+  display:flex;
+}
+.content-links
+{
+  margin-top:5%;
+  margin-bottom:0px;
+   text-align:left;
+
+}
+.content-links ul li {
+ list-style:none;
+  display:list-item;
+  padding:25px 35px;
+  position: relative;
+   border-style: inset;
+  border-color: black;
+  background:transparent;
+  background-color: black;
+  background-color: black;
+
+
+}
+.content-links ul li a{
+color:white;
+  text-decoration:none;
+  font-size:15px;
+   border-style:block;
+  border-color: white;
+
+}
+}
+.content{
+  margin-left: 0px;
+}
+.coursera{
+  
+}
+.coursera h1{
+  margin-left: 40%
+}
+.beside{
+  display: flex;
+  margin-left: 10%;
+  margin-bottom: 20px;
+
+}
+.beside img{
+  width: 50px;
+  height: 50px;
+}
+.beside p{
+  font-size: 20px;
+  margin-top:0.5%;
+  color: black;
+}
+.beside p a{
+  color:black;
+}
+.endline
+{
+  display:flex;
+  margin-top:0px;
+  border-style: inset;
+  border-color: blue;
+  background-color:#000080;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.endleft{
+  color: #FFFFFF;
+    margin-left: 20px;
+}
+.endleftthree
+{
+  margin-left: 20px;
+  color: #FFFFFF;
+}
+.endlefttwo{
+  margin-left: 20px;
+  color: #FFFFFF;
+}
+.endleftone{
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.endleftfour{
+   display:flex;
+}
+.endleftfour img{
+  width: 50px;
+  height: 50px;
+}
+.endleftfive{
+
+  border:2px solid black;
+  margin-left: 15%;
+}
+.endline2
+{
+display:flex;
+  margin-top: 0px;
+   border-style: inset;
+  border-color: blue;
+  background-color:#000080;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+}
+.endline24{
+  display:flex;
+  margin-left: 50%;
+}
+.endline24 img{
+    width: 50px;
+  height: 50px;
+}
+}
+
+
+
+
+.hero-btn{
+   text-decoration: none;
+    background:transparent;
+}
+
+.myinput {
+  background-image: url('img/courseback.jpg'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 70%; /* Full-width */
+  font-size: 96px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  margin-left: 20%;
+}
+#uppertable{
+padding: 12px;
+  
+  }
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 700px; /* Full-width */
+  border: 2px solid white; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+ margin-left: 40px;
+ border-left:0%;
+}
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 2px solid white;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+

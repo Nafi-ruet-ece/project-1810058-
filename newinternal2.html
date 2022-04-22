@@ -1,0 +1,204 @@
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title> edutech website</title>
+<link rel="stylesheet"href="newinternal2style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<section class ="header">
+    <nav>
+   
+
+<a href="index.html"><img src="img/icon.png"></a>
+<h1>EDUTech academy</h1>
+
+<div class="nav-links"id="navLinks">
+  
+  <ul>
+<li> <a href="video_system/video_insert.php">video_insert</a></li>
+<li> <a href="file uploading/insert.php">pdf_insert</a></li>
+<li> <a href="file uploading/display_pdf.php">pdf</a></li>
+<li> <a href="video_system/video_display.php">video</a></li>
+
+
+  </ul>
+</div>
+
+
+</nav>
+
+
+
+
+<section class="belowhead">
+
+  <h3>Algebra basics</h3>
+  <h1>Unit:Algebric expressions</h1>
+
+
+</section>
+
+
+
+
+<div class="aside">
+   
+<div class="content-links"id="navLinks">
+ 
+<ul>
+<li> <a href="newinternal.html"class="hero-btn">page1</a></li>
+<li> <a href="commentsystem/testcomment.php"class="hero-btn">comment</a></li>
+<li> <a href="/file uploading/display_pdf.php"class="hero-btn">fileuploading</a></li>
+<li> <a href=""class="hero-btn">HOME</a></li>
+
+
+  </ul>
+</div>
+<div class="content">
+<div class="myinput"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."></div>
+<div class="coursera">
+    <table id="myTable">
+  <tr class="headertable">
+    <th style="width:60%;"><a href="test2.php">Introduction to Data Structure</a></th>
+
+<tr><td><div class="beside"><img src="img/icon.png">
+  <p><a href="commentsystem/test2.php">What is Data Structure</a></p></div></td></tr>
+  <tr><td><div class="beside"> <img src="img/icon.png">
+      <p><a href="commentsystem/test3comment.php">Stack data structure</p></div></td></tr>
+      
+   <tr><td> <div class="beside">  <img src="img/icon.png">
+      <p>Evaluate the expression with one variable</p></div></td></tr>
+       <tr><td> <div class="beside">  <img src="img/icon.png">
+      <p><a href="commentsystem/testcomment.php">Stack data structure</p></div></td></tr>
+   
+      </div>
+    </div>
+</table>
+</input>
+</div>
+</div>
+ </section>
+  <div class="endline">
+    <div class="endleft">
+    <p>Our mission is to provide a free, world-class</p>
+    <p>education to anyone, anywhere.</p>
+  </br>
+</br
+<p>Khan Academy is a 501(c)(3) nonprofit></p>
+<p>organization. Donate or volunteer today!</p>
+</div>
+<div class="endleftthree">
+<p>igation</p>
+<p>About</p>
+<p>News</p>
+<p>Impact</p>
+<p>Our team</p>
+<p>Our interns</p>
+<p>Our content specialists</p>
+<p>Our leadership</p>
+<p>Our supporters</p>
+</div>
+<div class="endlefttwo">
+<p>igation</p>
+<p>About</p>
+<p>News</p>
+<p>Impact</p>
+<p>Our team</p>
+<p>Our interns</p>
+<p>Our content specialists</p>
+<p>Our leadership</p>
+<p>Our supporters</p>
+</div>
+<div class="endleftone">
+<p>igation</p>
+<p>About</p>
+<p>News</p>
+<p>Impact</p>
+<p>Our team</p>
+<p>Our interns</p>
+<p>Our content specialists</p>
+<p>Our leadership</p>
+<p>Our supporters</p>
+</div>
+<div class="endleftfour">
+  <img src="img/icon.png">
+ <p> What variable</p></div>
+
+
+</div>
+</div>
+<div class="endleftfive">
+
+
+</div>
+
+
+
+</div>
+
+ <div class= "endline2">
+  <div class="endline21">
+   <p>Terms of use </p>
+
+  </div>
+ <div class="endline22">
+   <p>Privacy policy</p>
+
+  </div>
+
+ <div class="endline23">
+
+<p>cookie Notice </p>
+
+ </div>
+  <div class="endline24">
+
+
+      <img src="img/fb.png">
+   
+   
+      <img src="img/twitter.png">
+
+      <img src="img/instagram.jpg">
+
+
+ </div>
+
+
+
+ </div>
+
+
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.centeralaised{
+  min-height: 100vh;
+  width:10%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/loginback2.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+
+}
+.centeralaised{
+	margin:10px auto;
+	width:1000px;
+	text-align: center;
+}
+.chathistory{
+	min-height:600px;
+	width:600px;
+	margin:10px auto;
+	padding:10px;
+ background:transparent;
+ color:white;
+   font-size:20px;
+}
+.chatbox p{
+ color:white;
+   font-size:20px;
+
+}
+.txtarea{
+	min-height:100px;
+	width:600px;
+	margin:10px auto;
+	padding:10px;
+	
+}
+.signup_link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+.signup_link a{
+
+	font-size: 35px;
+	color: white;
+}
